@@ -1,0 +1,23 @@
+{
+  "name": "hack-heroes-2023",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --watch index.ts"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@bogeychan/elysia-logger": "^0.0.12",
+    "@elysiajs/html": "^0.7.3",
+    "@grotto/logysia": "^0.0.5",
+    "elysia": "^0.7.17",
+    "elysia-autoroutes": "^0.4.0",
+    "pino-pretty": "^10.2.3",
+    "typed-html": "^3.0.1"
+  }
+}
