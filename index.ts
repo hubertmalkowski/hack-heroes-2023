@@ -1,5 +1,6 @@
 import { logger } from "@bogeychan/elysia-logger";
 import { html } from "@elysiajs/html";
+import staticPlugin from "@elysiajs/static";
 import Elysia from "elysia";
 import { autoroutes } from "elysia-autoroutes";
 import pretty from "pino-pretty";
@@ -15,6 +16,7 @@ const el = new Elysia()
       stream,
     })
   )
+  .use(staticPlugin())
   .use(html())
   .use(
     autoroutes({

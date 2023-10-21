@@ -6,6 +6,7 @@
     "dev": "bun run --watch index.ts"
   },
   "devDependencies": {
+    "@flydotio/dockerfile": "latest",
     "bun-types": "latest",
     "drizzle-kit": "^0.19.13"
   },
@@ -15,8 +16,8 @@
   "dependencies": {
     "@bogeychan/elysia-logger": "^0.0.12",
     "@elysiajs/html": "^0.7.3",
+    "@elysiajs/static": "^0.7.1",
     "@grotto/logysia": "^0.0.5",
-    "@vercel/postgres": "^0.5.0",
     "drizzle-orm": "^0.28.6",
     "elysia": "^0.7.17",
     "elysia-autoroutes": "^0.4.0",
